@@ -1,0 +1,8 @@
+#PBS -N TuckerCase4_525600
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=24:00:00
+#PBS -l pmem=5gb
+#PBS -j oe
+#PBS -M yzz130@psu.edu
+cd $PBS_O_WORKDIR
+time ./pihm
